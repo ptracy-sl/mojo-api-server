@@ -17,9 +17,19 @@ Easy to install and run, extendable all the way to PROD
 - why CSV datastore?
 Allows me to use the source data as-is without importing. Obviously not suitable for PROD
 
+# What's missing?
+- updating expired csv file
+- interesting endpoints
+- more endpoint options
+
 # Endpoints
 - /v1/foodtruck/permits
 - /v1/foodtruck/locations
+
+# Path to PROD
+- shared datastore
+- fetching csv file
+- way to request csv file update
 
 # File structure
 - lib
